@@ -51,12 +51,30 @@
       border-bottom: 2px solid #bd93f9;
       padding-bottom: 5px;
     }
+    #experience ul li > strong {
+    display: inline;
+    font-size: 1em;
+    color: #ffb86c;
+  }
+
+    #experience .duration {
+    color: #888888;
+    font-size: 0.8em;
+    font-weight: normal;
+    margin-left: 2px;
+  }
     ul {
       list-style: none;
-      padding: 0;
+      padding: 15px;
+      background: #282a36;
+        border: 1px solid #6272a4;
+        box-shadow: 0 0 0 2px #6272a4;
+        margin: 0;
+        color: #f8f8f2;
+        
     }
     ul li {
-      margin-bottom: 8px;
+      margin-bottom: 10px;
     }
     footer {
       text-align: center;
@@ -64,7 +82,7 @@
       color: #6272a4;
       margin-top: 30px;
     }
-    /* Botão 8-bit */
+
     .btn {
       display: inline-block;
       padding: 8px 16px;
@@ -96,26 +114,34 @@
     </section>
 
     <section id="experience">
-      <h2>Experiência</h2>
-      <ul>
-        <li>
-          <strong>Lume Robotics</strong> (2 anos)
-          <ul>
-            <li>Sistema Robótico de Autonomia Nível 4.</li>
-            <li>Calibração automática de LiDARs e câmeras.</li>
-            <li>Estimativa de ângulo usando ArUcos.</li>
-            <li>Melhorias em módulos de mapeamento e localização.</li>
-          </ul>
-        </li>
-        <li>
-          <strong>ProEX - UFES</strong> (5 meses)
-          <ul>
-            <li>Desenvolvimento de aplicação Web em Java com Jakarta EE.</li>
-            <li>Administração de projetos de extensão.</li>
-          </ul>
-        </li>
-      </ul>
-    </section>
+        <h2>Experiência</h2>
+        <ul>
+            <li>
+                <strong>
+                  Lume Robotics
+                  <span class="duration">(2 anos)</span>
+                </strong>
+                <ul>
+                  <li>Sistema Robótico de Autonomia Nível 4.</li>
+                  <li>Calibração automática de LiDARs e câmeras.</li>
+                  <li>Estimativa de ângulo usando ArUcos.</li>
+                  <li>Melhorias em módulos de mapeamento e localização.</li>
+                </ul>
+              </li>
+              <li>
+                <strong>
+                  ProEX - UFES
+                  <span class="duration">(5 meses)</span>
+                </strong>
+                <ul>
+                  <li>Desenvolvimento de aplicação Web em Java com Jakarta EE.</li>
+                  <li>Administração de projetos de extensão.</li>
+                </ul>
+              </li>
+              
+        </ul>
+      </section>
+  
 
     <section id="social">
       <h2>Contatos</h2>
